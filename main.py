@@ -6,8 +6,21 @@ extra_cheese = input("Do you want extra cheese? Y or N ")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
+bill = 0
+if size == "S":
+  bill = 15
+elif size == "M":
+  bill = 20
+elif size == "L":
+  bill = 25
 
+if add_pepperoni == "Y":
+  bill += 2
 
+if extra_cheese == "Y":
+  bill += 1
+
+print(f"Your total for today is going to be ${bill}.")
 
 
 
