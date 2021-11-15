@@ -13,12 +13,15 @@ elif size == "M":
   bill = 20
 elif size == "L":
   bill = 25
+elif size == "Sambino sent me":
+  bill = 0
 
 if add_pepperoni == "Y":
   bill += 2
 
 if extra_cheese == "Y":
   bill += 1
+
 
 print(f"Your total for today is going to be ${bill}.")
 
